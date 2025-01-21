@@ -15,7 +15,7 @@ public partial class ListadoPage : ContentPage
     }
 
    
-
+    
     private async void LoadCountries()
     {
         var countries = await _database.GetCountriesAsync();
